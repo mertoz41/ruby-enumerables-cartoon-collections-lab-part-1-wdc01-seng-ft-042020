@@ -9,8 +9,8 @@ end
   # Print a custom greeting for each element
 
 def list_dwarves(array)
-  array.each_with_index do |index, character|
-    0. character
+  array.each_with_index do |index, dwarf|
+    index. dwarf
   end 
 end
 
