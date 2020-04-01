@@ -10,6 +10,7 @@ end
 
 def list_dwarves(array)
   hash = {}
+  index = 1 
   array.each_with_index do |index, dwarf|
     hash[index] = dwarf 
   end 
