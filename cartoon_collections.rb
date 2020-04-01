@@ -1,3 +1,4 @@
+require 'pry'
 def greet_characters(array)
   array.each do |character|
   puts "Hello #{character}!"
@@ -10,7 +11,7 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |index, dwarf|
-     
+     binding.pry 
     puts "#{index}. #{dwarf}"
   end 
   
