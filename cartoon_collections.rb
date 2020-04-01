@@ -11,7 +11,7 @@ end
 def list_dwarves(array)
   array.each_with_index do |index, dwarf|
     puts "#{dwarf}. #{index}"
-    index.to_int += 1 
+    index.to_i += 1 
     
   end 
   
