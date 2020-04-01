@@ -9,8 +9,9 @@ end
   # Print a custom greeting for each element
 
 def list_dwarves(array)
+  hash = {}
   array.each_with_index do |index, dwarf|
-    index = dwarf 
+    hash[index] = dwarf 
   end 
 end
 
