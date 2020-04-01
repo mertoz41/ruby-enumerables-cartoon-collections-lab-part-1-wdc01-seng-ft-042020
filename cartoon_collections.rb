@@ -12,9 +12,9 @@ def list_dwarves(array)
   array.each_with_index do |dwarf, index|
     
     puts "#{index}. #{dwarf}"
-    
+    index = 1 
   end 
-  index = 1 
+   
 end
 
 # Use `each_with_index` to enumerate over the provided array
