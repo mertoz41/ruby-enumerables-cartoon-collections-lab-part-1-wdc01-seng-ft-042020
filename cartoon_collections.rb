@@ -11,8 +11,9 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |index, dwarf|
-     binding.pry 
+     
     puts "#{index}. #{dwarf}"
+    binding.pry 
   end 
   
 end
